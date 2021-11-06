@@ -16,7 +16,7 @@ export function TokenCard(props) {
 
 export const cardStyles = StyleSheet.create({
     view: {
-        marginTop: '10px',
+        marginTop: 10,
         borderWidth: 0.5
     }
 })

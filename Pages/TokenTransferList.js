@@ -43,7 +43,7 @@ export function TokenTransfer(props) {
     }
 
     return(
-        <View style={{padding: '20px'}}>
+        <View style={{padding: 20}}>
             <FlatList data={tokenTransfers.resp} keyExtractor={(token) => token.tokenID} renderItem={renderItem} />
         </View>
     );

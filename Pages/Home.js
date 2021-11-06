@@ -47,15 +47,14 @@ export function Home(props) {
 
 const styles = StyleSheet.create({
     view: {
-        padding: '20px',
         display: 'flex',
+        padding: 20,
         maxWidth: '60%',
-        marginLeft: '20%',
+        marginLeft: '20%'
     },
     input: {
         borderWidth: 1,
-        lineHeight: 2,
-        marginTop: '10px',
-        marginBottom: '10px'
+        marginTop: 10,
+        marginBottom: 10
     }
 })

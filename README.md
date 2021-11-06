@@ -14,7 +14,7 @@ this will open a browser with the metro bundler which then can be used to run ap
 
 ### TODO
 
-1. Provide a fix for Application crashing on Android (I suspect its the web scraping library.)
+1. ~~Provide a fix for Application crashing on Android (I suspect its the web scraping library.)~~ It was styles
 2. Use APIs to retrieve metadata for a token instead of scraping
 3. Make UI more intuitive
 4. Add validation

@@ -44,7 +44,7 @@ export function NFT(props) {
 
     return(
         <>
-            {imgURL ? <Image style={styles.img} height={'50%'} width={'50%'} source={{uri: imgURL}} /> : <Text>Sorry no image found</Text>}
+            {imgURL ? <Image style={styles.img} height={50} width={50} source={{uri: imgURL}} /> : <Text>Sorry no image found</Text>}
         </>
     );
 }
@@ -53,6 +53,6 @@ const styles = StyleSheet.create({
     img: {
         width: '100%',
         height: '100%',
-        marginTop: '20px'
+        marginTop: 20
     }
 })

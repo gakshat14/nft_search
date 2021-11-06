@@ -4,7 +4,7 @@ import {Text} from 'react-native';
 // accepts header size by defining property size
 
 const initialProps = {
-    size: '30',
+    size: 30,
     children: undefined
 };
 

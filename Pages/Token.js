@@ -28,9 +28,9 @@ export function Tokens(props) {
 
 const style = StyleSheet.create({
     view: {
-        padding: '20px',
+        padding: 20,
     },
     flat: {
-        marginTop: '10px'
+        marginTop: 10
     }
 })
